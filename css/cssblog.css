@@ -1,0 +1,35 @@
+/*----------STYLE NAV----------*/
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+  
+  }
+  
+  .style-navbar{
+    z-index: 100;
+    position: fixed;
+  }
+  .img-logovar {
+    background-size: cover;
+    /*Tamaño de imagen*/
+      width: 60px;
+      height: 60px;
+  }
+
+  /*-------STYLE FOOTER--------*/
+.img-footer{
+    background-image: url('/img/general/banner.jpg');
+    background-color: #292929;
+    background-blend-mode: multiply;
+    display: flex;
+    background-size: cover;
+    image-orientation: from-image;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .style-footer {
+    background: #292929;
+    }
