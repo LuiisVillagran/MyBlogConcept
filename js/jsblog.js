@@ -13,6 +13,12 @@ fetch('../pages/footer.html')
         document.getElementById('footer').innerHTML = data;
     });
 
+/*----------------------LLAMAR A INDEXBLOG-----------------------*/
+fetch('../pages/indexblog.html')
+    .then(response => response.text())
+    .then(data => {
+        document.getElementById('indexblog').innerHTML = data;
+    });    
 $(document).ready(function(){
     var navbar = $('#navbar');
     var sticky = navbar.offset().top;
