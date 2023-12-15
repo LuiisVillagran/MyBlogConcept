@@ -25,7 +25,7 @@
 .container-info-cover{
   max-width: 800px;
   height: 400px;
-  margin: auto;
+  margin: 40px;
   justify-content: flex-end;
   display: flex;
   flex-direction: column;
@@ -43,4 +43,55 @@
   color: black;
   font-size: 20px;
   font-weight: 400;
+}
+
+/*-----------ARTICULO BLOG-----------*/
+
+/*-Contenedor del articulo*/
+.container-content article{
+  margin: 20px;
+  box-shadow: -10px 0 20px -30px black;
+}
+
+.relacionados{
+  width: 80%;
+  text-align: justify;
+}
+
+.img-blog{
+  width: 500px;
+  height: 500px;
+}
+.img-relacionados{
+ width: 70%;
+  margin-left: 30px;
+  margin-right: 10px;
+ text-align: center;
+}
+.cuadro-articulo{
+  text-align:start;
+  justify-content: center;
+  margin-top: 70px;
+  margin-left: 50px;
+  margin-right: 10px;
+}
+
+/*---------AJUSTE TE TAMAÑO EN PANTALLA--------*/
+
+@media screen and (max-width: 1020px){
+  .container-content{
+    max-width:1000px;
+    padding: 0 20px;
+  }
+
+  .container-aside{
+    display: flex;
+    justify-content: center;
+  }
+
+  .container-aside aside{
+    max-width: 300px;
+    margin: 10px;
+
+  }
 }

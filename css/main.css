@@ -9,6 +9,7 @@
   /*----------STYLE NAV----------*/
   .style-navbar{
     z-index: 2;
+    margin: 6px;
   }
   .img-logovar {
     background-size: cover;
@@ -34,3 +35,4 @@
     background-position: center;
     background-repeat: no-repeat;
   }
+

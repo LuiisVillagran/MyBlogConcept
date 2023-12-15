@@ -19,6 +19,8 @@ fetch('../pages/indexblog.html')
     .then(data => {
         document.getElementById('indexblog').innerHTML = data;
     });    
+
+
 $(document).ready(function(){
     var navbar = $('#navbar');
     var sticky = navbar.offset().top;
